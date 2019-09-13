@@ -3,5 +3,5 @@ Protractor(Jasmine,Javascript,Typescript)
 
 1)Install nodejs </br>
  node -verison</br>
- npm -version
-open -a Terminal /path/to/folder
+ npm -version </br>
+ open -a Terminal /Eclipse
