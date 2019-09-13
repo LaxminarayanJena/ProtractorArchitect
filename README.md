@@ -2,5 +2,5 @@
 Protractor(Jasmine,Javascript,Typescript)
 
 1)Install nodejs
- node -verison
+ node -verison</br>
  npm -version
