@@ -2,7 +2,7 @@
 Protractor(Jasmine,Javascript,Typescript)
 
 1)Install nodejs </br>
- node -verison</br>
+ node -version</br>
  npm -version </br>
  open -a Terminal /Eclipse</br>
 
@@ -21,3 +21,5 @@ It-TestCase</br>
 Spec-TestFile</br>
 Conf.js-spec files names</br>
 
+Convert to tern project to get all dependencies</br>
+Protractor conf.js
