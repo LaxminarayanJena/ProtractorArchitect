@@ -1,7 +1,7 @@
 exports.config = {
 		directConnect: true,
   //seleniumAddress: 'http://localhost:4444/wd/hub',
-  specs: ['All.js'],
+  specs: ['DropDown.js'],
   
   
   

@@ -1,17 +1,21 @@
 describe('Protractor Element Demo', function() {
+	
+	
+	function Add(a,b)
+	{
+		element(by.model("first")).sendKeys(a);
+		element(by.model("second")).sendKeys(b);
+		element(by.id("gobutton")).click();
+	}
 
 	it('Locators', function() {
 
 		browser.get('https://juliemr.github.io/protractor-demo/');
-		element(by.model("first")).sendKeys("3");
-		element(by.model("second")).sendKeys("5");
+		
 
-		element(by.id("gobutton")).click();
-
-		element(by.model("first")).sendKeys("7");
-		element(by.model("second")).sendKeys("6");
-
-		element(by.id("gobutton")).click();
+		Add(2,3);
+		Add(5,3);
+		Add(6,3);
 		
 		element.all(by.repeater("result in memory")).count().then(function(text)
 				
