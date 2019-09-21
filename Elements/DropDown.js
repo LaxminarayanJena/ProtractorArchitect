@@ -26,6 +26,8 @@ describe('Protractor Element Demo', function() {
 		Cal(3,7,"MULTIPLICATION");
 		Cal(7,7,"SUBTRACTION");
 		
+		
+		//element(by.cssContainingText('option', 'BeaverBox Testing')).click();
 		element(by.model("operator")).element(by.css("option:nth-child(4)")).click().then(function(){
 			
 			
