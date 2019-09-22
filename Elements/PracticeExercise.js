@@ -4,7 +4,7 @@ describe('Practice Exercise',function(){
 	function selectItems(product)
 	{
 		//take 4 cards into list
-		//go through each index in the list and get the title- if title =desired title then in that index
+		//go through each index in the list and get the title- if title =desired title then in that index i will select add button
 		
 		element.all(by.tagName("app-card")).each(function(item)
 				
@@ -13,10 +13,10 @@ describe('Practice Exercise',function(){
 			
 			{
 				if(text=="Samsung Note 8")
-					{
-					item.element(By.css("button[class*='btn-info']")).click();
-					
-					}
+				{
+				item.element(By.css("button[class*='btn-info']")).click();
+				
+				}	
 			})
 		})
 		
@@ -45,6 +45,10 @@ describe('Practice Exercise',function(){
 		element(by.linkText("Shop")).click();
 		selectItems("Samsung Note 8");
 		selectItems("iphone X");
+		selectItems("Blackberry");
+		selectItems("Nokia Edge");
+		
+		browser.sleep(5000);
 		
 		element(by.partialLinkText("Checkout")).getText().then(function(text)
 				
@@ -53,7 +57,7 @@ describe('Practice Exercise',function(){
 			var x=Number(res[1].trim().charAt(0));
 			
 			var y=x+1;
-			console.log(y);
+			console.log(x);
 			//expect(res[1].trim().charAt(0)).toBe(y);
 				})
 
