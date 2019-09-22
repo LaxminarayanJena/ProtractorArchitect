@@ -12,7 +12,7 @@ describe('Practice Exercise',function(){
 			item.element(by.css("h4 a")).getText().then(function(text)
 			
 			{
-				if(text=="Samsung Note 8")
+				if(text=="iphone X")
 				{
 				item.element(By.css("button[class*='btn-info']")).click();
 				
