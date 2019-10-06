@@ -6,6 +6,7 @@ let b:string="hello";
 let c:number=4;
 let list:Array<number>=[1,2,3];
 let dynamic:any;
+
 dynamic=3;
 dynamic="hello";
 
