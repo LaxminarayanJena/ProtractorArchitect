@@ -26,4 +26,9 @@ Protractor conf.js
 
 Javascript is asynchronous.Everyjavscript return promises.promises resembles state of your step.1)pending 2)resolved 3)rejected
 90% actions-protractor will not move forward unless promise is resolved
-If you want to retrieve anything from browser then that particular functionality related methods have no support of promise resolving
+If you want to retrieve anything from browser then that particular functionality related methods have no support of promise resolving </br>
+
+-----Framework Designing-----</br>
+npm init
+
+

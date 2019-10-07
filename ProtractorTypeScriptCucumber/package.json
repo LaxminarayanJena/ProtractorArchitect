@@ -1,0 +1,11 @@
+{
+  "name": "protractortypescriptcucumber",
+  "version": "1.0.0",
+  "description": "framework for protractor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LaxminarayanJena",
+  "license": "ISC"
+}
