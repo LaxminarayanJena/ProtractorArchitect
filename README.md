@@ -29,6 +29,8 @@ Javascript is asynchronous.Everyjavscript return promises.promises resembles sta
 If you want to retrieve anything from browser then that particular functionality related methods have no support of promise resolving </br>
 
 -----Framework Designing-----</br>
-npm init
+npm init </br>
+npm install protractor </br>
+npm install
 
 
