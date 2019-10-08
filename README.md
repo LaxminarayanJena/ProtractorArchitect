@@ -38,7 +38,7 @@ Edit the tsconfig file</br>
 tsc -to convert typescript to js </br>
 
 To run</br>
-laxminarayanjena$ protractor JSFiles/configuration.js
+laxminarayanjena$ protractor JSFiles/configuration.js </br>
 
 
 
