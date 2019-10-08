@@ -31,6 +31,14 @@ If you want to retrieve anything from browser then that particular functionality
 -----Framework Designing-----</br>
 npm init </br>
 npm install protractor </br>
-npm install
+npm install </br>
+
+tsc --init //to create tsconfig.json</br>
+Edit the tsconfig file</br>
+tsc -to convert typescript to js </br>
+
+To run</br>
+laxminarayanjena$ protractor JSFiles/configuration.js
+
 
 
