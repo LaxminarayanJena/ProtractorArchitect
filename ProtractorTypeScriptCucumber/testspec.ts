@@ -3,15 +3,16 @@ import {element,by} from "protractor";
 
 describe('Protractor Element Demo',function(){
 
-	it('Locators',function(){
+	it('Locators',async()=>{
 		
 		
 		//browser.waitForAngularEnabled(false);
 		//browser.get("http://www.google.com");
 		
+		//u can use promise or async await
 		
 		browser.get('https://juliemr.github.io/protractor-demo/');
-		element(by.model("first")).sendKeys("3");
+		await element(by.model("first")).sendKeys("3");
 		element(by.model("second")).sendKeys("5");
 		
 		element(by.id("gobutton")).click();
@@ -30,9 +31,17 @@ describe('Protractor Element Demo',function(){
 		
 	})
 	
-	
-	
-	
-	
-})
+	it('Angular homepage title validation',async()=>
+	{
+		
+		await browser.get("https://angularjs.org/");
+		await element(by.linkText("angular.io")).click();
+		await element(by.css("input[type='search']")).sendKeys("hello");
+		
+		
+		})
+		
+		
+		
+	})
 
