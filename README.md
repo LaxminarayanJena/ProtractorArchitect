@@ -24,7 +24,7 @@ Conf.js-spec files names</br>
 Convert to tern project to get all dependencies</br>
 Protractor conf.js
 
-Javascript is asynchronous.Everyjavscript return promises.promises resembles state of your step.1)pending 2)resolved 3)rejected
+Javascript is asynchronous.Every javascript return promises.promises resembles state of your step.1)pending 2)resolved 3)rejected
 90% actions-protractor will not move forward unless promise is resolved
 If you want to retrieve anything from browser then that particular functionality related methods have no support of promise resolving </br>
 
@@ -39,6 +39,8 @@ tsc -to convert typescript to js </br>
 
 To run</br>
 laxminarayanjena$ protractor JSFiles/configuration.js </br>
+
+npm run test
 
 
 

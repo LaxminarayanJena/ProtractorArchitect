@@ -1,5 +1,6 @@
 import {browser} from "protractor";
 import {element,by} from "protractor";
+import {Calculator} from "./PageObjects/Calculator";
 
 describe('Protractor Element Demo',function(){
 
@@ -42,6 +43,30 @@ describe('Protractor Element Demo',function(){
 		})
 		
 		
+
+		it('Calculator Test',async()=>
+	{
+		
+		let calc= new Calculator();
+		 
+		await browser.get("https://juliemr.github.io/protractor-demo/");
+		await calc.firstEditBox.sendKeys("3");
+		await calc.secondEditBox.sendKeys("5");
+		await calc.go.click();
+		
+		
+		calc.getResult.getText().then(function(text)
+		{
+		console.log(text);
+		
+		})
+
+
+
+
+		
+		
+		})
 		
 	})
 
