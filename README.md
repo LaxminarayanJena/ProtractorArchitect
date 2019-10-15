@@ -40,7 +40,10 @@ tsc -to convert typescript to js </br>
 To run</br>
 laxminarayanjena$ protractor JSFiles/configuration.js </br>
 
-npm run test
+npm run test </br>
+
+-----Protractor Cucumber Framework------- </br>
+
 
 
 
