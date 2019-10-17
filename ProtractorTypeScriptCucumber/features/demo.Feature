@@ -6,13 +6,13 @@ When I add two numbers "3" and "5"
 Then the output displayed should be "8"
 
 Scenario: Calculator Add functionality testing
-Given I will navigate to Calc Site
+Given I will navigate to "Calc" Site
 When I add two numbers "2" and "7"
 Then the output displayed should be "9"
 
 
-Scenario: Calculator Add functionality testing
-Given I will navigate to Angular js page
+Scenario: Navigate to angular website
+Given I will navigate to "AngularJs" Site
 When I click on header link
 And you will navigate to angular page
 Then you will enter "hello" in search box

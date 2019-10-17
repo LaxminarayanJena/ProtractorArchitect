@@ -44,6 +44,7 @@ npm run test </br>
 
 -----Protractor Cucumber Framework------- </br>
 
+./node_modules/protractor/bin/webdriver-manager update
 
 
 
