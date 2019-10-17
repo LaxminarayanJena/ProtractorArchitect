@@ -4,6 +4,9 @@ import {Given,When,Then} from "cucumber";
 import { async } from "q";
 import {Calculator} from "../PageObjects/Calculator";
 import {angularHomePageObjects} from "../PageObjects/angularHomePageObjects";
+import chai from "chai";
+var expect= chai.expect;
+
 let calc = new Calculator();
 let angular = new angularHomePageObjects();
 
@@ -42,7 +45,8 @@ let angular = new angularHomePageObjects();
             await calc.go.click();
 		    await calc.getResult.getText().then(function(text)
 		{
-		console.log(text);
+        console.log(text);
+        expect(text).to.equal(string);
 		
         })
         
