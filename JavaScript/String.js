@@ -4,3 +4,6 @@ console.log(name.indexOf("m"));
 console.log(name.toUpperCase());
 console.log(name.trim());
 console.log(name.slice(1,3));
+
+var obj=require("./JSObject.js");
+obj.getModel();

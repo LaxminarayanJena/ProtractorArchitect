@@ -34,6 +34,7 @@ export let config: Config = {
     SELENIUM_PROMISE_MANAGER: false,
     specs: ['../features/demo.Feature'],
     cucumberOpts: {
+      tags:"@CalculatorTesting",
         require:[
           './StepDefinations/*.js'
         ],

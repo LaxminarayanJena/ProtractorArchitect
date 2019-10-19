@@ -10,7 +10,7 @@ Then the output displayed should be "8"
 Scenario: Calculator Add functionality testing
 Given I will navigate to "Calc" Site
 When I add two numbers "2" and "7"
-Then the output displayed should be "90"
+Then the output displayed should be "9"
 
 @AngularTesting
 Scenario Outline: Navigate to angular website
