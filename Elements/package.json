@@ -2,6 +2,16 @@
 	"name": "Protractor",
 	"dependencies": {
 		"protractor": "^5.3.0",
-		"jasmine-data-provider": "^2.2.0"
+		"jasmine-data-provider": "^2.2.0",
+		"protractor-jasmine2-html-reporter": "0.0.7"
+	},
+	"scripts": {
+		"webdriver-update": "./node_modules/protractor/bin/webdriver-manager update",
+		"smoke": "./node_modules/.bin/protractor conf.js --suite smoke",
+		"start":"npm run webdriver-update && npm run smoke"
+		
+		
+		
 	}
 }
+

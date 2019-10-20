@@ -5,7 +5,7 @@ describe('Protractor Element Demo',function(){
 	using(obj.DataDriven,function(data,description)
 	{
 	
-	it('Locators',function(){
+	it('DataDrivenAndJasmineReporting-'+description,function(){
 		
 		
 		
