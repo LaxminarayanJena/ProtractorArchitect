@@ -46,5 +46,8 @@ npm run test </br>
 
 ./node_modules/protractor/bin/webdriver-manager update
 
+npm init -f
+ To install package.json
+
 
 

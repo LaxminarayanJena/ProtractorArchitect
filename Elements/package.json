@@ -1,0 +1,7 @@
+{
+	"name": "Protractor",
+	"dependencies": {
+		"protractor": "^5.3.0",
+		"jasmine-data-provider": "^2.2.0"
+	}
+}
